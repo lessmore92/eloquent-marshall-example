@@ -1,7 +1,7 @@
 # eloquent-marshall-example
 How to use Eloquent Marshall in real project
 
-#How to run
+# How to run
 ```
 composer install
 php -r "copy('.env.example', '.env');"
