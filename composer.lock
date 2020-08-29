@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40e359d8e3f3ddc4a3d831e0c4ce6050",
+    "content-hash": "dac6a02f4f1dc287622ee03b11066222",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1254,6 +1254,64 @@
                 }
             ],
             "time": "2020-08-09T10:34:01+00:00"
+        },
+        {
+            "name": "lessmore92/eloquent-marshall",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lessmore92/eloquent-marshall.git",
+                "reference": "6dea1b9a498ffccbb8193cabfff7d350bc870a6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lessmore92/eloquent-marshall/zipball/6dea1b9a498ffccbb8193cabfff7d350bc870a6d",
+                "reference": "6dea1b9a498ffccbb8193cabfff7d350bc870a6d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "*",
+                "illuminate/support": "*"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lessmore92\\EloquentMarshall\\EloquentMarshallServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lessmore92\\EloquentMarshall\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Lessmore92",
+                    "email": "bahramisoft@gmail.com"
+                }
+            ],
+            "description": "Search and sort functionality for laravel eloquent builder",
+            "keywords": [
+                "api",
+                "builder",
+                "eloquent",
+                "filter",
+                "laravel",
+                "marshall",
+                "model",
+                "request",
+                "search",
+                "searchable",
+                "sort",
+                "sortable"
+            ],
+            "time": "2020-02-20T22:21:02+00:00"
         },
         {
             "name": "monolog/monolog",
