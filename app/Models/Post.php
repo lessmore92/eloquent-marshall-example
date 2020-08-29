@@ -16,4 +16,14 @@ class Post extends Model
         'is_featured',
         'is_published'
     ];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    public function tags()
+    {
+        return $this->belongsToMany(Tag::class);
+    }
 }
